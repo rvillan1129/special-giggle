@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">        <!--link style cheet-->
+    <script src="main.js"></script>     <!--link javascript-->
+    <link rel="icon" type="image/x-icon" href="images/favicon.jpg">
+
+    <title>Springfield's Most Wanted</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="headDiv1">
+                <h1 onclick="change('index');">Springfield's Most Wanted</h1>
+            </div>
+        </div>      <!--end header-->
+
+        <div class="main">
+            <div class="idDiv" onclick="change('bart')">
+                <div class="banner">
+                    <h2>SPRINGFIELD<br>DRIVER LICENSE</h2>                      <!--SPRINGFIELD should be bigger and stretched-->
+                </div>
+                <div class="infoContainer">
+                    <div class="info1">
+                        <img src="images/bart.jpg" alt="bart" width="125px" height="165px">
+                    </div>
+                    <div class="info2">
+                        <h2 style="color: green;">B47U89RE243</h2>
+                        <P>BART SIMPSON</P>
+                        <p>742 EVERGREEN TERR.</p>
+                        <P>SPRINGFIELD, USA</P><br>
+                        <p>BIRTHDATE: <span style="color: red;">02-11-70</span></p>
+
+                        <table>
+                            <tr>
+                                <th style="padding-left: 0px;">SEX</th>
+                                <th>HT</th>
+                                <th>EYES</th>
+                                <th>WT</th>
+                            </tr>
+                            <tr>
+                                <td style="padding-left: 0px;">M</td>
+                                <td>4'0</td>
+                                <td>BL</td>
+                                <td>85</td>
+                            </tr>
+                        </table>
+                        <hr>
+                    </div>
+                </div>
+            </div>      <!--end Bart id-->
+            
+            <div class="idDiv" onclick="change('homer')">
+                <div class="banner">
+                    <h2>SPRINGFIELD<br>DRIVER LICENSE</h2>
+                </div>
+                <div class="infoContainer">
+                    <div class="info1">
+                        <img src="images/homer.jpg" alt="homer" width="125px" height="125px">
+                    </div>
+                    <div class="info2">
+                        <h2 style="color: green;">C4043243</h2>
+                        <P>HOMER J. SIMPSON</P>
+                        <p>742 EVERGREEN TERR.</p>
+                        <P>SPRINGFIELD, USA</P><br>
+                        <p>BIRTHDATE: <span style="color: red;">05-12-56</span></p>
+
+                        <table>
+                            <tr>
+                                <th style="padding-left: 0px;">SEX</th>
+                                <th>HT</th>
+                                <th>EYES</th>
+                                <th>WT</th>
+                            </tr>
+                            <tr>
+                                <td style="padding-left: 0px;">M</td>
+                                <td>6'0</td>
+                                <td>BL</td>
+                                <td>240</td>
+                            </tr>
+                        </table>
+                        <hr>
+                    </div>
+                </div>
+            </div>          <!--end Homer id-->
+            
+            <div class="idDiv" id="idSchool" onclick="change('lisa')">
+                <div class="banner" id="bannerSchool">
+                    <h2>SPRINGFIELD, USA</h2>
+                </div>
+                <div class="infoStudent">
+                    <table style="margin: auto;">
+                        <tr>
+                            <th> LICENSE# </th>
+                            <th> BIRTHDATE </th>
+                            <th> EXPIRES </th>
+                            <th> CLASS </th>
+                        </tr>
+                        <tr>
+                            <td>64209</td>
+                            <td>MAY</td>
+                            <td>NEVER</td>
+                            <td>2ND GRADE</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="infoContainer">
+                    <div class="info1" id="info1Student">
+                        <img src="images/lisa.jpg" alt="lisa" width="125px" height="172px">
+                    </div>
+                    <div class="info2" id="info2Student">
+                        <div id="bannerStudent">
+                            <h2>STUDENT I.D.</h2>
+                        </div>
+
+                        <h2>LISA SIMPSON<br>19 PLYMPTON ST.<br>SPRINGFIELD, USA 62701</h2>
+
+                        <table class="studentTable">
+                            <tr>
+                                <th>SEX</th>
+                                <th>HEIGHT</th>
+                                <th>WEIGHT</th>
+                                <th>HAIR</th>
+                                <th>EYES</th>
+                            </tr>
+                            <tr>
+                                <td>F</td>
+                                <td>4'3"</td>
+                                <td>65</td>
+                                <td>YELLOW</td>
+                                <td>ROUND</td>
+                            </tr>
+                        </table><br>
+                        <div id="signature">
+                            <p>X ____________________________</p>
+                            <p> SIGNATURE</p>
+                        </div>
+                    </div>
+                </div>
+            </div>      <!--end lisa div-->
+
+            <div class="idDiv" onclick="change('maggie')">
+                <div class="banner">
+                    <h2>SPRINGFIELD<br>STROLLER LICENSE</h2>                      <!--SPRINGFIELD should be bigger and stretched-->
+                </div>
+                <div class="infoContainer">
+                    <div class="info1">
+                        <img src="images/maggie.jpg" alt="maggie" width="100px" height="150px">
+                    </div>
+                    <div class="info2">
+                        <h2 style="color: orange;">B47UC42093</h2>
+                        <P>MAGGIE SIMPSON</P>
+                        <p>742 EVERGREEN TERR.</p>
+                        <P>SPRINGFIELD, USA</P><br>
+                        <p>BIRTHDATE: <span style="color: red;">06-16-90</span></p>
+
+                        <table>
+                            <tr>
+                                <th style="padding-left: 0px;">SEX</th>
+                                <th>HT</th>
+                                <th>EYES</th>
+                                <th>WT</th>
+                            </tr>
+                            <tr>
+                                <td style="padding-left: 0px;">F</td>
+                                <td>2'3"</td>
+                                <td>BL</td>
+                                <td>25</td>
+                            </tr>
+                        </table>
+                        <hr>
+                    </div>
+                </div>
+            </div>          <!--end maggie dive-->
+           
+            <div class="idDiv" onclick="change('moe')">
+                <div class="banner">
+                    <h2>SPRINGFIELD<br>DRIVER LICENSE</h2>                      <!--SPRINGFIELD should be bigger and stretched-->
+                </div>
+                <div class="infoContainer">
+                    <div class="info1">
+                        <img src="images/moeSmile.jpg" alt="moe" width="125px" height="125px">
+                    </div>
+                    <div class="info2">
+                        <h2 style="color: green;">B47U89RE243</h2>
+                        <P>MOE SZYSLAK</P>
+                        <p>57 WALNUT ST.</p>
+                        <P>SPRINGFIELD, USA</P><br>
+                        <p>BIRTHDATE: <span style="color: red;">11-24-27</span></p>
+
+                        <table>
+                            <tr>
+                                <th style="padding-left: 0px;">SEX</th>
+                                <th>HT</th>
+                                <th>EYES</th>
+                                <th>WT</th>
+                            </tr>
+                            <tr>
+                                <td style="padding-left: 0px;">M</td>
+                                <td>5'8"</td>
+                                <td>BL</td>
+                                <td>180</td>
+                            </tr>
+                        </table>
+                        <hr>
+                    </div>
+                </div>
+            </div>          <!--end moe id-->
+           
+            <div class="idDiv" id="idSchool" onclick="change('ralph')">
+                <div class="banner" id="bannerSchool">
+                    <h2>SPRINGFIELD, USA</h2>
+                </div>
+                <div class="infoStudent">
+                    <table style="margin: auto;">
+                        <tr>
+                            <th> LICENSE# </th>
+                            <th> BIRTHDATE </th>
+                            <th> EXPIRES </th>
+                            <th> CLASS </th>
+                        </tr>
+                        <tr>
+                            <td>84230</td>
+                            <td>FEB</td>
+                            <td>NEVER</td>
+                            <td>2ND GRADE</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="infoContainer">
+                    <div class="info1" id="info1Student">
+                        <img src="images/ralph.jpg" alt="ralph" width="125px" height="150px">
+                    </div>
+                    <div class="info2" id="info2Student">
+                        <div id="bannerStudent">
+                            <h2>STUDENT I.D.</h2>
+                        </div>
+
+                        <h2>RALPH WIGGUM<br>19 PLYMPTON ST.<br>SPRINGFIELD, USA 62701</h2>
+
+                        <table class="studentTable">
+                            <tr>
+                                <th>SEX</th>
+                                <th>HEIGHT</th>
+                                <th>WEIGHT</th>
+                                <th>HAIR</th>
+                                <th>EYES</th>
+                            </tr>
+                            <tr>
+                                <td>M</td>
+                                <td>4'3"</td>
+                                <td>90</td>
+                                <td>BROWN</td>
+                                <td>ROUND</td>
+                            </tr>
+                        </table><br>
+                        <div id="signature">
+                            <p>X ____________________________</p>
+                            <p> SIGNATURE</p>
+                        </div>
+                    </div>
+                </div>
+            </div>      <!--end ralph div-->
+
+        </div>          <!--end main div-->
+    </div>      <!--end container-->
+</body>
+</html>
